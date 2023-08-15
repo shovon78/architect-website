@@ -81,7 +81,7 @@ main{
     gap: 20px;
 }
 .team-description{
-    margin-left: 50px;
+    margin-left: 100px;
 }
 .light-gray-ash{
     color: #727272;
@@ -177,4 +177,79 @@ main{
 .sponsor-img:hover{
     filter: none;
     cursor: pointer;
+}
+
+/* footer style starts gere  */
+footer .light-gray-ash{
+    text-align: center;
+    background-color: #e2b582;
+    width: 100%;
+    margin-top: 80px;
+    padding: 30px;    
+}
+
+/* ------------------Responsive Design Starts Here  ---------------*/
+
+@media only screen and (max-width:688px) {
+    header{
+        padding: 20px;
+    }
+    nav, 
+    .team-container,
+    .features,
+    .fact-badge-container,
+    .sponsor,
+    .sponsor-container{
+        flex-direction: column;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .team-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-img img{
+        width: 90%;
+        margin-left: 0;
+        align-items: center;
+    }
+    
+    .ten-years-badge{
+        position: static;
+        max-width: 300px;
+    }
+    .fact-badge{
+        margin: 10px;
+    }
+    .sponsor-container{
+        align-items: center;
+        gap: 10px;
+    }
+    .sponsor-container:hover{
+        /* transition: background-color 0.3 ease; */
+        filter: none;
+    }
+    .footer{
+        width: 90%;
+    }
+    
+}
+@media screen and (min-width:689px) and (max-width:991px) {
+    header{
+        padding: 55px;
+    }
+    nav,
+    .team-container,
+    .features,
+    .facts,
+    .sponsor,
+    .sponsor-container{
+        flex-direction: column;
+    }
+    .sponsor-container{
+        align-items: center;
+    }
+    .footer{
+        width: auto;
+    }
 }
