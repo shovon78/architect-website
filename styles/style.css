@@ -2,23 +2,25 @@
 .btn-primary{
     color: aliceblue;
     background-color: #e4810f;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     border: none;
-    font-size: 10px;
+    font-size: 15px;
     cursor: pointer;
+}
+.light-gray-ash{
+    color: #727272;
 }
 
 /* ------------------------header styles starts from here---------------- */
 .section-title{
-    font-size: 20px;
-    font-weight: 900;
-    margin-left: 180px; 
-    
+    font-size: 30px;
+    font-weight: 900; 
 }
 header{
     background-color: #e8c093 ;
     text-align: center;
+    padding: 50px 240px;
 }
 nav{
     display: flex;
@@ -27,7 +29,6 @@ nav{
 }
 nav ul{
     display: flex;
-    margin-right: 150px;
 }
 nav li{
     list-style: none;
@@ -61,4 +62,66 @@ nav li a{
 }
 
 /* ---------------------------header section ends here -------------------- */
+/* Main sectiuon starts here  */
+main{
+    max-width: 1300px;
+    margin: 70px auto;
+}
+
+/* team section starts here  */
+.team-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%; 
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 20px;
+}
+.team-description{
+    margin-left: 50px;
+}
+.light-gray-ash{
+    color: #727272;
+}
+.span-1{
+    color: #e4810f;
+}
+
+/* -------Feature section starts here ------------- */
+
+.features{
+    display: flex;
+    gap: 50px;
+    margin-top: 130px;
+}
+.features .section-title{
+    border-left: 5px solid #c86f09;
+    padding-left: 25px;    
+}
+.card{
+    padding: 25px;
+    margin-top: 10px;
+    background-color:  #efe0cc;
+    border-radius: 10px;
+
+}
+ .ten-years-badge{
+    color: #eee3d6;
+    background-color: #e4810f;
+    height: 120px;
+    width: 80px;
+    padding: 20px;
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+
+}
+.feature-img{
+    position: relative;
+    width: auto;
+    height: auto;
+}
 
