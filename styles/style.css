@@ -1,0 +1,64 @@
+/* Shared Style */
+.btn-primary{
+    color: aliceblue;
+    background-color: #e4810f;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+/* ------------------------header styles starts from here---------------- */
+.section-title{
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 180px; 
+    
+}
+header{
+    background-color: #e8c093 ;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    margin-right: 150px;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 13px;
+    font-weight: 300;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(158, 7, 7);
+}
+
+/* ------------banner style starts here----------- */
+
+.banner-conteiner{
+    margin-top: 20px;
+}
+.banner-title{
+    color: black;
+    font-weight: 900;
+    font-size: 30px;
+}
+.banner-description{
+    font-size: 13px;
+    color: rgb(109, 109, 93);
+}
+.banner-img{
+    width: 940px;
+    height: 497px;
+    margin-top: 25px;
+}
+
+/* ---------------------------header section ends here -------------------- */
+
